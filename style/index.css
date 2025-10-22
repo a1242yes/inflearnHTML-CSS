@@ -1,17 +1,8 @@
-#container {
-  height: 1000px;
-  width: 400px;
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  /* justify-content: center; */
-  flex-direction: column;
-  border: 1px solid black;
+button {
+  background-color: aqua;
+  transition: all 3s cubic-bezier(1, -2.38, 0.33, 0.7);
 }
-.sub_container {
-  width: 200px;
-  height: 200px;
-  background-color: blueviolet;
-  border: 1px solid black;
-  font-size: 40px;
+
+button:hover {
+  background-color: blue;
 }
