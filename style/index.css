@@ -1,28 +1,7 @@
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@keyframes my-animation {
-  0% {
-    transform: translate(0);
-    opacity: 0; /* <- 투명도 */
-  }
-  50% {
-    transform: translate(300px);
-    background-color: beige;
-    opacity: 1;
-  }
-  100% {
-    transform: translate(0);
-    /* opacity: 0; */
-  }
-}
+@import "reset.css";
+@import "/style/components/header.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap");
 
-div {
-  width: 300px;
-  height: 300px;
-  border: 1px solid red;
-  animation: my-animation 3s infinite;
+body {
+  font-family: "Noto Serif KR", serif;
 }
