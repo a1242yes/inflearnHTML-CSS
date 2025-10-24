@@ -1,7 +1,9 @@
 @import "/style/reset.css";
 @import "../common.css";
 @import "/style/components/header.css";
-@import "/style/slider.css";
-@import "/style/intro.css";
-@import "/style/components/product-list.css";
 @import "/style/components/footer.css";
+@import "/style/components/product-list.css";
+
+.main {
+  padding-top: 20px;
+}

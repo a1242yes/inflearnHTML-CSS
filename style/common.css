@@ -2,4 +2,6 @@
 
 body {
   font-family: "Noto Serif KR", serif;
+  padding-bottom: 230px;
+  position: relative;
 }

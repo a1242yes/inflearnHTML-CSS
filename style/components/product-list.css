@@ -1,28 +1,34 @@
-.main__month-best {
+.main__product-list {
   background-color: rgb(237, 233, 241);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main__best-title {
+.main__product-list-title {
   font-size: 20px;
   font-weight: 600;
   margin-top: 60px;
   margin-bottom: 10px;
 }
-.main__best-sub-title {
+.main__product-list-sub-title {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.359);
 }
-.main__best-sub-container {
+.main__product-list-container {
   display: flex;
   margin: 40px 0;
 }
-.main__best-atricle {
+.main__product-list-atricle {
   width: 330px;
   height: 550px;
   overflow: hidden;
   margin: 0 15px;
+  transition: 0.5s;
+}
+.main__product-list-atricle:hover {
+  cursor: pointer;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  transform: scale(1.1);
 }
 .main__article-img-container {
   width: 100%;

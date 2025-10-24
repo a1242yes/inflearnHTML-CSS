@@ -36,6 +36,13 @@
   margin: 0 20px;
   /* border: 1px solid red; */
 }
+.header__content a {
+  color: black;
+  text-decoration: none;
+}
+.header__content a {
+  color: black;
+}
 /* 아래헤더 */
 .header__category {
   display: flex;
